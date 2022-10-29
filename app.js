@@ -120,7 +120,7 @@ function getData() {
         dom("Enter file name");
         return;
     }
-    let arrayHeader = ["First Name", "Last Name", "Title", "Company", "Email", "Linkedin"]
+    let arrayHeader = ["First Name", "Last Name", "Title", "Company", "Email", "Person Linkedin Url"]
     let count = 0;
     let cs = arrayHeader.join(",") + '\n';
     let a = 0;
